@@ -21,7 +21,7 @@ Perhaps use FM synthesis to make a sound which is string-like or drum-like.
 
 - The notes will play with an envelope and spectrum that you choose, but cannot be just a pure sine wave.
 
--The program should have three modes:
+- The program should have three modes:
 
 	1. Upon power-up the system should go to play mode and play a note for every keypad press.
 	This mode requires keypad debouncing.
