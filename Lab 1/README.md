@@ -4,7 +4,7 @@ Date: 2019-September
 
 Goal of this lab: produce a music synthesizer, played using a keypad, and with a programmable playback function.
 
-###Overall Requirements:
+### Overall Requirements:
 
 - The program starts In play mode. The program will play the notes C4 through C5 using the keypad keys 1 to 8.
 
