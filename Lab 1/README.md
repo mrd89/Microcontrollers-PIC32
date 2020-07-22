@@ -17,19 +17,19 @@ Perhaps use FM synthesis to make a sound which is string-like or drum-like.
 
 - This is mostly usful in record mode (see below).
 
- -In play mode the program will play the recorded (see below) note sequence at a fixed rate, perhaps one or two notes/second when the # key is pressed.
+- In play mode the program will play the recorded (see below) note sequence at a fixed rate, perhaps one or two notes/second when the # key is pressed.
 
 - The notes will play with an envelope and spectrum that you choose, but cannot be just a pure sine wave.
 
 -The program should have three modes:
 
-	- 1. Upon power-up the system should go to play mode and play a note for every keypad press.
-This mode requires keypad debouncing.
+	1. Upon power-up the system should go to play mode and play a note for every keypad press.
+	This mode requires keypad debouncing.
 
-	- 2. Pressing and holding a separate button (not the keypad) puts the system into frequency test mode for frequency calibration.
-In this mode each button, 1 to 8, produces a pure sine wave for as long as it is pushed, at full intensity, with no envelope.
+	2. Pressing and holding a separate button (not the keypad) puts the system into frequency test mode for frequency calibration.
+	In this mode each button, 1 to 8, produces a pure sine wave for as long as it is pushed, at full intensity, with no envelope.
 
-	- 3. Pressing and holding another button (not the keypad) puts the system into record mode so that each keypad press is recorded for later playback. Recording continues until the record mode button is released. This mode requires keypad debouncing. The duration of each keypad key press does not affect the recording.
+	3. Pressing and holding another button (not the keypad) puts the system into record mode so that each keypad press is recorded for later playback. Recording continues 		until the record mode button is released. This mode requires keypad debouncing. The duration of each keypad key press does not affect the recording.
 
 - The program should support one timbre (envelope and spectral content) that you can hard-code.
 - There should be no clicks, pops, or other audio artifacts of synthesis.
